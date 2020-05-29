@@ -1,0 +1,7 @@
+.idea/
+
+# chrome driver 
+chromedriver
+
+# python virtenv
+v1/
