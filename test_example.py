@@ -20,3 +20,14 @@ def test_example(driver):
     driver.find_element_by_name('btnK').click()
     time.sleep(1)
     WebDriverWait(driver, 10).until(EC.title_is('webdriver - Google Search'))
+
+
+def test_admin(driver):
+    driver.get('http://localhost/litecart/admin/')
+    driver.find_element_by_name('username').send_keys('admin')
+    driver.find_element_by_name('password').send_keys('admin')
+    driver.find_element_by_name('remember_me').click()
+    driver.find_element_by_name('login').click()
+    # time.sleep(10)
+
+
