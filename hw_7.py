@@ -72,13 +72,3 @@ def test_adminka(driver):
                 heading = wait.until(EC.presence_of_element_located((By.TAG_NAME, 'h1')))
                 assert _is_element_present(driver, By.TAG_NAME, 'h1') == True
                 print(f"--> Sub-menu {driver.title} heading --> {heading.text}")
-
-
-
-
-
-
-
-
-
-
