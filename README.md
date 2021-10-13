@@ -1,5 +1,4 @@
 # bars
 
 ## Table of contents
-
-learning project
++ learning project - barancev school
